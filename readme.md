@@ -32,6 +32,8 @@ From the parent of `caesar_cli` directory use comand:
 
 If some of the specified files are not found or have limited access the application will fail with an error.
 
+If using command line for entering text, to stop working application use `CTRL+C` keys.
+
 ## Usage examples
 ```bash
 $ node caesar_cli -a encode -s 7 -i "./input.txt" -o "./output.txt"
