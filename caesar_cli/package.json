@@ -1,0 +1,12 @@
+{
+  "name": "caesar_cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "author": "akool",
+  "license": "ISC",
+  "description": "Caesar cipher CLI tool",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
