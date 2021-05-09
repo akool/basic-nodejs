@@ -24,7 +24,8 @@ pipeline(
   transformStream,
   writetream,
   (error) => {
-    if (error) console.log('Error with cryptFile:', error.message);
-    else console.log('File writed');
+    if (error) {
+      process.stderr.write(`Text encryption error: ${error.message}`);
+    }
   }
 )
